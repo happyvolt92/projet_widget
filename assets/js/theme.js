@@ -1,22 +1,4 @@
 
-$('document').ready(function() {
-  $('#doctorSlideshow').owlCarousel({
-    nav: true,
-    dots: false,
-    navText: ["<span class='mai-arrow-back'></span>", "<span class='mai-arrow-forward'></span>"],
-    responsive: {
-      0: {
-        items: 1
-      },
-      576: {
-        items: 2
-      },
-      992: {
-        items: 3
-      }
-    }
-  });
-});
 
 $('document').ready(function() {
   $("a[data-role='smoothscroll']").click(function(e) {
